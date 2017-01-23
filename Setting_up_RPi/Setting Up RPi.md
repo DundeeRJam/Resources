@@ -24,7 +24,7 @@ Get your Raspberry Pi.
 
 When your raspberry pi is all wired up it should look like the picture below.
 <br>
-![Pi Diagram](Resources/Images/pi.jpg)
+![Pi Diagram](https://github.com/DundeeRJam/Resources/blob/First-draft/Images/pi.jpg)
 <br>
 After the Raspberry Pi has finished booting up, you will see either the Graphical User Interface or Command Line Interface ( the image below on the right is the Graphical inteface and the one on the right is the Command Line).
 <br>
