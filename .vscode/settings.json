@@ -1,6 +1,12 @@
 // Place your settings in this file to overwrite default and user settings.
 {
+<<<<<<< HEAD
      "markdown-pdf.styles": [
          "C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/mystyle.css"
      ]
+=======
+    "markdown-pdf.styles": [
+        "C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/mystyle.css"
+    ]
+>>>>>>> refs/remotes/origin/First-draft
 }

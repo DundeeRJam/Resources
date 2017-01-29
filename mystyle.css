@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
    line-height: 21px;
 
@@ -8,4 +9,25 @@ body {
 p {
      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
      font-size: 14px;
+=======
+p {
+ font-size: 18px;   
+}
+
+body {
+
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+   line-height: 21px;
+  
+   margin: 10px 13px 10px 13px;
+}
+
+ul {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+}
+
+h2 {
+    font-size: 20px;
+>>>>>>> refs/remotes/origin/First-draft
 }
