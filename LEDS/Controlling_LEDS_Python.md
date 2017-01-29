@@ -39,7 +39,7 @@ yellow.on() # this is turning the yellow LED on
 green.on() # this is turning the green LED on
 ```
 
-Once you have typed all of the code above and checked to make sure it is right. Save the file and call it LED_on.python
+Once you have typed all of the code above and checked to make sure it is right. Save the file and call it LED_on.py
 
 ## Running The Code
 You are now ready to run the code. You can do this by clicking on Run -> Run Module or by pressing F5 on your keyboard. You should now see your LED's light up.

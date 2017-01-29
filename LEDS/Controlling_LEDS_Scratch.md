@@ -17,33 +17,35 @@ To complete this worksheet you will require:
 
 ## Creating The Circuit
 Before you create the circuit make sure the raspberry pi is turned off. To create the circuit follow the diagram below:
-**NOTE** LED's Have one longer leg called the annode is always connected to the positive supply of the circuit. The shorter leg called the cathode is connected to the negative side of the power supply. The resistors go in between the short leg and ground rail on a breadboard.
+**NOTE** LED's Have one longer leg called the annode which is always connected to the positive supply of the circuit and The shorter leg called the cathode which is connected to the negative side of the power supply. The resistors go in between the short leg and ground rail on a breadboard.
 
 ![LED Diagram](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/LED_Diagram.png)
 
 Now plug the power supply in to turn the Raspberry pi on.
 
 ## Code
-Your Raspberry Pi should now be booted up. Go to menu -> programming and click on IDLE3 python editor. To create a new file go to file -> new file. Now type the following code:
+Your Raspberry Pi should now be booted up. Go to menu -> programming and click on Scratch. Now drag and drop the folowing blocks to crate your code:
 
-**NOTE** Anything typed after a '#' is a comment in python. Programmers use this to tell other people and their selfs reading the code what is going on.
-```python
-from gpiozero import LED
+![LED_on code](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/LED_on.png)
 
-red = LED(18) # this is saying the red LED is connected to pin 18 on the raspberry pi
-yellow = LED(23) # this is saying the yellow LED is connected to pin 23 on the raspberry pi
-green = LED(24) # this is saying the green LED is connected to pin 24 on the raspberry pi
+## What The Blocks Do
+Code Block                                                                              | Meaning
+-----------|-------------------------------------------------------------------------------------------------------------------------------
+![Green Flag](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/Green_Flag.png) | When the green flag is clicked the code will run
+![GPIO Server on](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/GPIO_Server.png) | Turning the GPIO Server on so that scratch can communicate with the GPIO Pins
+![pin 18 out](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/18_Out.png) | Configuring pin 18 as an output
+![pin 23 out](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/23_out.png) | Configuring pin 23 as an output
+![pin 24 out](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/24_out.png) | Configuring pin 24 as an output
+![pin 18 on](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/18_on.png) | Giving pin 18 power and turning the red LED on
+![pin 23 on](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/23_on.png) | Giving pin 23 power and turning the yellow LED on
+![pin 24 on](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/24_on.png) | Giving pin 24 power and turning the green LED on
 
-red.on() # this is turning the red LED on
-yellow.on() # this is turning the yellow LED on
-green.on() # this is turning the green LED on
-```
+**NOTE** To edit the code of the broadcast blocks click on the little black arrow and pick *new/edit* abnd type the text into the dialog box and press enter.
 
-Once you have typed all of the code above and checked to make sure it is right. Save the file and call it LED_on.python
+Once you have copied the code above and checked to make sure it is right. Save the file and call it LED_on
 
 ## Running The Code
-You are now ready to run the code. You can do this by clicking on Run -> Run Module or by pressing F5 on your keyboard. You should now see your LED's light up.
+You are now ready to run the code. You can do this by clicking on the green flag. You should now see your LED's light up.
 
 ## Challenge
 You have managed to turn the LED's on. Now try and turn them off. Save your code in a seperate file.
-
