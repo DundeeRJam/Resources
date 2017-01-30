@@ -29,7 +29,6 @@ Now that the raspberry pi is booted up, go to menu -> programming -> IDLE3 pytho
 
 ``` python
 from gpiozero import LED, Buzzer
-from time import sleep
 
 # configuring the LEDs and Buzzer to pins of raspberry pi
 Red = LED (18)
@@ -40,14 +39,6 @@ Buzz = Buzzer (22)
 Red.on()
 Blue.on()
 Buzz.on()
-
-# Pausing for 1 second
-sleep (1)
-
-# Turning off LED's and sound
-Red.off()
-Blue.off()
-Buzz.off()
 ```
 
 **NOTE:** Anything starting with a "#" is a comment in python, so you don't have to type them.
