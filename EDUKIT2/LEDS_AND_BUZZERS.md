@@ -20,7 +20,7 @@ Before you create the circuit make sure the raspberry pi is turned off. To creat
 
 **NOTE** LED's Have one longer leg called the annode is always connected to the positive supply of the circuit. The shorter leg called the cathode is connected to the negative side of the power supply. The resistors go in between the short leg and ground rail on a breadboard.
 
-![LED Buzzer Diagram](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/LED_Buzzer_Diagram.png)
+![LED Buzzer Diagram](https://github.com/DundeeRJam/Resources/blob/master/Images/LED_Buzzer_Diagram.png)
 
 You can now turn on your raspberry pi.
 
