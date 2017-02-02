@@ -3,7 +3,7 @@
 # Controlling LED's with Scratch
 
 ## Introduction
-Within this worksheet you are going to learn how to connect and control LED's with a Raspberry Pi through scratch code.
+Within this worksheet you are going to learn how to connect and control LEDs with a Raspberry Pi through scratch code.
 
 ## Equipment We Will Be Using
 To complete this worksheet you will require:
@@ -17,14 +17,14 @@ To complete this worksheet you will require:
 
 ## Creating The Circuit
 Before you create the circuit make sure the raspberry pi is turned off. To create the circuit follow the diagram below:
-**NOTE** LED's Have one longer leg called the annode which is always connected to the positive supply of the circuit and The shorter leg called the cathode which is connected to the negative side of the power supply. The resistors go in between the short leg and ground rail on a breadboard.
+**NOTE** LEDs Have one longer leg called the annode which is always connected to the positive supply of the circuit. The shorter leg called the cathode which is connected to the negative side of the power supply. The resistors go in between the short leg and ground rail on a breadboard.
 
 ![LED Diagram](https://github.com/DundeeRJam/Resources/blob/master/Images/LED_Diagram.png)
 
 Now plug the power supply in to turn the Raspberry pi on.
 
 ## Code
-Your Raspberry Pi should now be booted up. Go to menu -> programming and click on Scratch. Now drag and drop the folowing blocks to crate your code:
+Your Raspberry Pi should now be booted up. Go to Menu -> Programming and click on Scratch. Now drag and drop the folowing blocks to crate your code:
 
 ![LED_on code](https://github.com/DundeeRJam/Resources/blob/master/Images/LED_on.png)
 
@@ -40,12 +40,12 @@ Code Block                                                                      
 ![pin 23 on](https://github.com/DundeeRJam/Resources/blob/master/Images/23_on.png)            | Giving pin 23 power and turning the yellow LED on
 ![pin 24 on](https://github.com/DundeeRJam/Resources/blob/master/Images/24_on.png)            | Giving pin 24 power and turning the green LED on
 
-**NOTE** To edit the code of the broadcast blocks click on the little black arrow and pick *new/edit* abnd type the text into the dialog box and press enter.
+**NOTE** To edit the code of the broadcast blocks click on the little black arrow and pick *new/edit* and type the text into the dialog box and press enter.
 
 Once you have copied the code above and checked to make sure it is right. Save the file and call it LED_on
 
 ## Running The Code
-You are now ready to run the code. You can do this by clicking on the green flag. You should now see your LED's light up.
+You are now ready to run the code. You can do this by clicking on the green flag. You should now see your LEDs light up.
 
 ## Challenge
-You have managed to turn the LED's on. Now try and turn them off. Save your code in a seperate file.
+You have managed to turn the LEDs on. Now try and turn them off. Save your code in a seperate file.
