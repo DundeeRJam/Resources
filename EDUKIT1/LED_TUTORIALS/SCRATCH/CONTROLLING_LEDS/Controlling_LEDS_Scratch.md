@@ -19,7 +19,8 @@ To complete this worksheet you will require:
 Before you create the circuit make sure the raspberry pi is turned off. To create the circuit follow the diagram below:
 **NOTE** LEDs Have one longer leg called the annode which is always connected to the positive supply of the circuit. The shorter leg called the cathode which is connected to the negative side of the power supply. The resistors go in between the short leg and ground rail on a breadboard.
 
-![LED Diagram](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/LEDs.png)
+![](https://github.com/DundeeRJam/Resources/blob/master/Images/LEDs.png)
+![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/LEDs.png)
 
 Now plug the power supply in to turn the Raspberry pi on.
 
