@@ -27,19 +27,19 @@ Now plug the power supply in to turn the Raspberry pi on.
 ## Code
 Your Raspberry Pi should now be booted up. Go to Menu -> Programming and click on Scratch. Now drag and drop the folowing blocks to crate your code:
 
-![LED_on code](https://github.com/DundeeRJam/Resources/blob/master/Images/LED_on.png)
-
+![](https://github.com/DundeeRJam/Resources/blob/master/Images/LED_on.png)
+![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/LED_on.png)
 ## What The Blocks Do
 Code Block                                                                                    | Meaning
 ----------------------------------------------------------------------------------------------|-----------------------------------------
-![Green Flag](https://github.com/DundeeRJam/Resources/blob/master/Images/Green_Flag.png)      | When the green flag is clicked the code will run
-![GPIO Server on](https://github.com/DundeeRJam/Resources/blob/master/Images/GPIO_Server.png) | Turning the GPIO Server on so that scratch can communicate with the GPIO Pins
-![pin 18 out](https://github.com/DundeeRJam/Resources/blob/master/Images/18_out.png)          | Configuring pin 18 as an output
-![pin 23 out](https://github.com/DundeeRJam/Resources/blob/master/Images/23_out.png)          | Configuring pin 23 as an output
-![pin 24 out](https://github.com/DundeeRJam/Resources/blob/master/Images/24_out.png)          | Configuring pin 24 as an output
-![pin 18 on](https://github.com/DundeeRJam/Resources/blob/master/Images/18_on.png)            | Giving pin 18 power and turning the red LED on
-![pin 23 on](https://github.com/DundeeRJam/Resources/blob/master/Images/23_on.png)            | Giving pin 23 power and turning the yellow LED on
-![pin 24 on](https://github.com/DundeeRJam/Resources/blob/master/Images/24_on.png)            | Giving pin 24 power and turning the green LED on
+![](https://github.com/DundeeRJam/Resources/blob/master/Images/Green_Flag.png) ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/Green_Flag.png)      | When the green flag is clicked the code will run
+![](https://github.com/DundeeRJam/Resources/blob/master/Images/GPIO_Server.png)![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/GPIO_Server.png) | Turning the GPIO Server on so that scratch can communicate with the GPIO Pins
+![](https://github.com/DundeeRJam/Resources/blob/master/Images/18_out.png)![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/18_out.png)          | Configuring pin 18 as an output
+![](https://github.com/DundeeRJam/Resources/blob/master/Images/23_out.png)![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/23_out.png)          | Configuring pin 23 as an output
+![](https://github.com/DundeeRJam/Resources/blob/master/Images/24_out.png)![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/24_out.png)          | Configuring pin 24 as an output
+![](https://github.com/DundeeRJam/Resources/blob/master/Images/18_on.png) ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/18_on.png)           | Giving pin 18 power and turning the red LED on
+![](https://github.com/DundeeRJam/Resources/blob/master/Images/23_on.png) ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/23_on.png)           | Giving pin 23 power and turning the yellow LED on
+![](https://github.com/DundeeRJam/Resources/blob/master/Images/24_on.png) ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/24_on.png)           | Giving pin 24 power and turning the green LED on
 
 **NOTE** To edit the code of the broadcast blocks click on the little black arrow and pick *new/edit* and type the text into the dialog box and press enter.
 
