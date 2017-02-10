@@ -17,8 +17,8 @@ To complete this worksheet you will require:
 * 1 x Piece of hookup wire
 
 ## Creating The Circuit
-Before you create the circuit make sure the raspberry pi is turned off. To create the circuit follow the diagram below:
-**NOTE** LEDs Have one longer leg called the annode which is always connected to the positive supply of the circuit. The shorter leg called the cathode which is connected to the negative side of the power supply. The resistors go in between the short leg and ground rail on a breadboard.
+Before you create the circuit make sure the Raspberry Pi is turned off. To create the circuit follow the diagram below:
+**NOTE:** LEDs Have one longer leg called the annode which is always connected to the positive supply of the circuit. The shorter leg called the cathode which is connected to the negative side of the power supply. The resistors go in between the short leg and ground rail on a breadboard.
 
 ![](https://github.com/DundeeRJam/Resources/blob/master/Images/LEDs.png)
 ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/LEDs.png)
@@ -43,7 +43,7 @@ Code Block                                                                      
 ![](https://github.com/DundeeRJam/Resources/blob/master/Images/Wait.png) ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/Wait.png)             | This makes the program pause for 1 second
 ![](https://github.com/DundeeRJam/Resources/blob/master/Images/18_off.png) ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/18_off.png)           | Taking power away from pin 18 and turning the red LED off
 
-**NOTE** To edit the code of the broadcast blocks click on the little black arrow and pick *new/edit* and type the text into the dialog box and press enter.
+**NOTE:** To edit the code of the broadcast blocks click on the little black arrow and pick *new/edit* and type the text into the dialog box and press enter.
 
 Once you have copied the code above and checked to make sure it is right. Save the file and call it Blinking_LEDs.
 
