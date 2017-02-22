@@ -37,12 +37,14 @@ First thing we need to do is open Scratch. To do this Go to Menu -> Programming 
 
 Your interface should look something like this:
 
+![](https://github.com/DundeeRJam/Resources/blob/master/Images/User_Interaction.png)
 ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/User_Interaction.png)
 
 ## Creating The Code
 ### **Configuring GPIO**
 To configure scratch to talk to the GPIO pins double click on the stage icon and add the following code:
 
+![](https://github.com/DundeeRJam/Resources/blob/master/Images/User_Interaction_Code1.png)
 ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/User_Interaction_Code1.png)
 
 ### **What The Blocks Do**
@@ -57,22 +59,24 @@ Code Block                                                                      
 ### **Configuring The Red LED**
 Double click on the Red sprite block and add this code:
 
+![](https://github.com/DundeeRJam/Resources/blob/master/Images/User_Interaction_Code2.png)
 ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/User_Interaction_Code2.png)
 
 ### **What The Blocks Do**
 Code Block                                                  | Meaning
 ------------------------------------------------------------|------------------------------------------------------------------------------------------------------------
-![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/Sprite_Clicked.png)| When this sprite is clicked do te code that follows
-![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/Ask_Wait.png)| This allows you to ask a question and wait for a response
-![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/Repeat.png) | This block makes the code inside it repeat a given number of times
-![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/Answer.png) | This stores the answer to a question. When attached to the repeat block the code will run that many times
-![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/18_on.png) | Giving pin 18 power and turning the red LED on
-![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/Wait.png) | This makes the program pause for 1 second
-![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/18_off.png) | Taking power away from pin 18 and turning the red LED off
+![](https://github.com/DundeeRJam/Resources/blob/master/Images/Sprite_Clicked.png)![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/Sprite_Clicked.png)| When this sprite is clicked do te code that follows
+![](https://github.com/DundeeRJam/Resources/blob/master/Images/Ask_Wait.png)![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/Ask_Wait.png)| This allows you to ask a question and wait for a response
+![](https://github.com/DundeeRJam/Resources/blob/master/Images/Repeat.png)![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/Repeat.png) | This block makes the code inside it repeat a given number of times
+![](https://github.com/DundeeRJam/Resources/blob/master/Images/Answer.png)![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/Answer.png) | This stores the answer to a question. When attached to the repeat block the code will run that many times
+![](https://github.com/DundeeRJam/Resources/blob/master/Images/18_on.png)![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/18_on.png) | Giving pin 18 power and turning the red LED on
+![](https://github.com/DundeeRJam/Resources/blob/master/Images/Wait.png)![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/Wait.png) | This makes the program pause for 1 second
+![](https://github.com/DundeeRJam/Resources/blob/master/Images/18_off.png)![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/18_off.png) | Taking power away from pin 18 and turning the red LED off
 
 ### **Configuring The Yellow LED**
 Double click on the Yellow sprite and add this code:
 
+![](https://github.com/DundeeRJam/Resources/blob/master/Images/User_Interaction_Code3.png)
 ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/User_Interaction_Code3.png)
 
 All the code for the Yellow sprite is the same as the Red Sprite apart from it is turning pin 23 on and off instead of pin 18.
