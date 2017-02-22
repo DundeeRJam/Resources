@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/mystyle.css">
 
-# Controlling LED's with Scratch
+# Controlling LEDs
 
 ## Introduction
 Within this worksheet you are going to learn how to connect and control LEDs with a Raspberry Pi through scratch code.
