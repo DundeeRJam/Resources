@@ -23,6 +23,7 @@ To create the circuit follow the diagram below:
 
 ![](https://github.com/DundeeRJam/Resources/blob/master/Images/LEDs.png)
 ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/LEDs.png)
+
 Now plug the power supply in to turn the Raspberry pi on.
 
 ## Code
