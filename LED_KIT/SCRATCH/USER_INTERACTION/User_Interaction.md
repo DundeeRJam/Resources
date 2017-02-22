@@ -18,10 +18,11 @@ To complete this worksheet you will require:
 ## Creating The Circuit
 Before you create the circuit make sure the Raspberry Pi is turned off.
 To create the circuit follow the diagram below:
-**NOTE** LEDs Have one longer leg called the anode which is always connected to the positive supply of the circuit. The shorter leg called the cathode is connected to the negative side of the power supply. The resistors go in between the short leg and ground rail on a breadboard.
+**NOTE:** LEDs Have one longer leg called the anode which is always connected to the positive supply of the circuit. The shorter leg called the cathode is connected to the negative side of the power supply. The resistors go in between the short leg and ground rail on a breadboard.
 
 ![](https://github.com/DundeeRJam/Resources/blob/master/Images/LEDs.png)
 ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/LEDs.png)
+
 Now plug the power supply in to turn the Raspberry pi on.
 
 ## Creating User Interface
@@ -39,11 +40,12 @@ Your interface should look something like this:
 ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/User_Interaction.png)
 
 ## Creating The Code
-### Configuring GPIO
+### **Configuring GPIO**
 To configure scratch to talk to the GPIO pins double click on the stage icon and add the following code:
+
 ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/User_Interaction_Code1.png)
 
-### What The Blocks Do
+### **What The Blocks Do**
 Code Block                                                                                    | Meaning
 ----------------------------------------------------------------------------------------------|-----------------------------------------
 ![](https://github.com/DundeeRJam/Resources/blob/master/Images/Green_Flag.png) ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/Green_Flag.png)      | When the green flag is clicked the code will run
@@ -52,11 +54,12 @@ Code Block                                                                      
 ![](https://github.com/DundeeRJam/Resources/blob/master/Images/23_out.png)![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/23_out.png)          | Configuring pin 23 as an output
 ![](https://github.com/DundeeRJam/Resources/blob/master/Images/24_out.png)![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/24_out.png)          | Configuring pin 24 as an output
 
-### Configuring The Red LED
+### **Configuring The Red LED**
 Double click on the Red sprite block and add this code:
+
 ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/User_Interaction_Code2.png)
 
-### What The Blocks Do
+### **What The Blocks Do**
 Code Block                                                  | Meaning
 ------------------------------------------------------------|------------------------------------------------------------------------------------------------------------
 ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/Sprite_Clicked.png)| When this sprite is clicked do te code that follows
@@ -67,8 +70,9 @@ Code Block                                                  | Meaning
 ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/Wait.png) | This makes the program pause for 1 second
 ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/18_off.png) | Taking power away from pin 18 and turning the red LED off
 
-### Configuring The Yellow LED
+### **Configuring The Yellow LED**
 Double click on the Yellow sprite and add this code:
+
 ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/User_Interaction_Code3.png)
 
 All the code for the Yellow sprite is the same as the Red Sprite apart from it is turning pin 23 on and off instead of pin 18.
