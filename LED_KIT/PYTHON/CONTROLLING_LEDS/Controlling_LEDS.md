@@ -6,19 +6,20 @@ Within this worksheet you are going to learn how to connect and control LEDs wit
 ## Equipment We Will Be Using
 To complete this worksheet you will require:
 * A Raspberry Pi with all cables
-* A Electronic Breadboard
+* An Electronic Breadboard
 * 1 x Red LED
 * 1 x Yellow LED
 * 1 x Green LED
 * 3 x 330 ohms Resistors
 * 4 x Male to Female jumper wires
+* 2 x bits of hook-up wire
 
 ## Creating The Circuit
 Before you create the circuit make sure the Raspberry Pi is turned off.
 To create the circuit follow the diagram below:
 **NOTE** LEDs Have one longer leg called the anode which is always connected to the positive supply of the circuit. The shorter leg called the cathode is connected to the negative side of the power supply. The resistors go in between the short leg and ground rail on a breadboard.
 
-<img src = "Images/LEDs.png" width = "420px" height = "300px" />
+<img src = "Images/LEDs.png" width = "300px" height = "300px" />
 
 Now plug the power supply in to turn the Raspberry pi on.
 
@@ -46,4 +47,4 @@ Once you have typed all of the code above, and checked to make sure it is right,
 You are now ready to run the code. You can do this by clicking on Run -> Run Module or by pressing F5 on your keyboard. You should now see your LEDs light up.
 
 ## Challenge
-You have managed to turn the LEDs on. Now try and turn them off. Save your code in a seperate file.
+You have managed to turn the LEDs on. Now try and turn them off. Save your code in a separate file.
