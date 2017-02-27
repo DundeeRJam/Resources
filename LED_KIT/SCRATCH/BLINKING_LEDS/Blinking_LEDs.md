@@ -48,6 +48,7 @@ Your Raspberry Pi should now be booted up. Go to Menu -> Programming and click o
     <td> <img src = "Images/18_out.png" width = "150px" height = "40px" />  </td>
     <td> Configuring pin 18 as an output </td>
   </tr>
+  <tr>
     <td> <img src = Images/23_out.png width = "150px" height = "40px" /> </td>
     <td> Configuring pin 23 as an output </td>
   </tr>
@@ -83,8 +84,6 @@ You have managed to make the red LED blink. Now try and make the yellow and gree
 
 ## Making LEDS Blink Forever
 <img src = "Images/Blinking_LEDs_Forever.png" width = "300px" height = "350px" />
-
-<br><br>
 
 <table style = "width:100%">
   <tr>
