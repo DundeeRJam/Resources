@@ -12,13 +12,13 @@ To complete this worksheet you will require:
 * 1 x Green LED
 * 3 x 330 ohms Resistors
 * 4 x Male to Female jumper wires
-* 1 x Piece of hook-up wire
+* 2 x Pieces of hook-up wire
 
 ## Creating The Circuit
 Before you create the circuit make sure the Raspberry Pi is turned off. To create the circuit follow the diagram below:
 **NOTE:** LEDs Have one longer leg called the anode which is always connected to the positive supply of the circuit. The shorter leg called the cathode which is connected to the negative side of the power supply. The resistors go in between the short leg and ground rail on a breadboard.
 
-<img src = "Images/LEDs.png" width = "420px" height = "300px" />
+<img src = "Images/LEDs.png" width = "300px" height = "300px" />
 
 Now plug the power supply in to turn the Raspberry pi on.
 
