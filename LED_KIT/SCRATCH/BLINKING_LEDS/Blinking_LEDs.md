@@ -1,5 +1,3 @@
-<link rel="stylesheet" type="text/css" href="C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/mystyle.css">
-
 # Making LEDs Blink
 
 ## Introduction
@@ -14,34 +12,62 @@ To complete this worksheet you will require:
 * 1 x Green LED
 * 3 x 330 ohms Resistors
 * 4 x Male to Female jumper wires
-* 1 x Piece of hookup wire
+* 1 x Piece of hook-up wire
 
 ## Creating The Circuit
 Before you create the circuit make sure the Raspberry Pi is turned off. To create the circuit follow the diagram below:
-**NOTE:** LEDs Have one longer leg called the annode which is always connected to the positive supply of the circuit. The shorter leg called the cathode which is connected to the negative side of the power supply. The resistors go in between the short leg and ground rail on a breadboard.
+**NOTE:** LEDs Have one longer leg called the anode which is always connected to the positive supply of the circuit. The shorter leg called the cathode which is connected to the negative side of the power supply. The resistors go in between the short leg and ground rail on a breadboard.
 
-![](https://github.com/DundeeRJam/Resources/blob/master/Images/LEDs.png)
-![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/LEDs.png)
+<img src = "Images/LEDs.png" width = "420px" height = "300px" />
 
 Now plug the power supply in to turn the Raspberry pi on.
 
-## Code
-Your Raspberry Pi should now be booted up. Go to Menu -> Programming and click on Scratch. Now drag and drop the folowing blocks to crate your code:
+<div class="page-break"></div>
 
-![](https://github.com/DundeeRJam/Resources/blob/master/Images/Blinking_LEDs.png)
-![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/Blinking_LEDs.png)
+## Code
+Your Raspberry Pi should now be booted up. Go to Menu -> Programming and click on Scratch. Now drag and drop the following blocks to crate your code:
+
+<img src = "Images/Blinking_LEDs.png" width = "300px" height = "350px" />
 
 ## What The Blocks Do
-Code Block                                                                                    | Meaning
-----------------------------------------------------------------------------------------------|-----------------------------------------
-![](https://github.com/DundeeRJam/Resources/blob/master/Images/Green_Flag.png) ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/Green_Flag.png)      | When the green flag is clicked the code will run
-![](https://github.com/DundeeRJam/Resources/blob/master/Images/GPIO_Server.png)![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/GPIO_Server.png) | Turning the GPIO Server on so that scratch can communicate with the GPIO Pins
-![](https://github.com/DundeeRJam/Resources/blob/master/Images/18_out.png)![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/18_out.png)          | Configuring pin 18 as an output
-![](https://github.com/DundeeRJam/Resources/blob/master/Images/23_out.png)![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/23_out.png)          | Configuring pin 23 as an output
-![](https://github.com/DundeeRJam/Resources/blob/master/Images/24_out.png)![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/24_out.png)          | Configuring pin 24 as an output
-![](https://github.com/DundeeRJam/Resources/blob/master/Images/18_on.png) ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/18_on.png)           | Giving pin 18 power and turning the red LED on
-![](https://github.com/DundeeRJam/Resources/blob/master/Images/Wait.png) ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/Wait.png)             | This makes the program pause for 1 second
-![](https://github.com/DundeeRJam/Resources/blob/master/Images/18_off.png) ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/18_off.png)           | Taking power away from pin 18 and turning the red LED off
+
+<table style = "width:100%">
+  <tr>
+    <th> Code Block </th>
+    <th> Meaning </th>
+  </tr>
+  <tr>
+    <td> <img src = "Images/Green_Flag.png" width = "150px" height = "40px" />  </td>
+    <td> When the green flag is clicked the code will run </td>
+  </tr>
+  <tr>
+    <td> <img src = "Images/GPIO_Server.png" width = "150px" height = "40px" /> </td>
+    <td> Turning the GPIO Server on so that scratch can communicate with the GPIO Pins </td>
+  </tr>
+  <tr>
+    <td> <img src = "Images/18_out.png" width = "150px" height = "40px" />  </td>
+    <td> Configuring pin 18 as an output </td>
+  </tr>
+    <td> <img src = Images/23_out.png width = "150px" height = "40px" /> </td>
+    <td> Configuring pin 23 as an output </td>
+  </tr>
+  <tr>
+    <td> <img src = "Images/24_out.png" width = "150px" height = "40px" /> </td>
+    <td> Configuring pin 24 as an output </td>
+  </tr>
+  <tr>
+    <td> <img src = "Images/18_on.png" width = "150px" height = "40px" /> </td>
+    <td> Giving pin 18 power and turning the red LED on </td>
+  </tr>
+  <tr>
+    <td> <img src = "Images/Wait.png" width = "150px" height = "40px" />  </td>
+    <td> This makes the program pause for 1 second </td>
+  </tr>
+  <tr>
+    <td> <img src = "Images/18_off.png" width = "150px" height = "40px" />  </td>
+    <td> Taking power away from pin 18 and turning the red LED off </td>
+  </tr>
+</table>  
 
 **NOTE:** To edit the code of the broadcast blocks click on the little black arrow and pick *new/edit* and type the text into the dialog box and press enter.
 
@@ -53,13 +79,23 @@ You are now ready to run the code. You can do this by clicking on the green flag
 ## Challenge 1
 You have managed to make the red LED blink. Now try and make the yellow and green blink too. Save your code and run it as before.
 
-## Making LEDS Blink Forever
-![](https://github.com/DundeeRJam/Resources/blob/master/Images/Blinking_LEDs_Forever.png) 
-![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/Blinking_LEDs_Forever.png)
+<div class="page-break"></div>
 
-Code Block                                                                                    | Meaning
-----------------------------------------------------------------------------------------------|-----------------------------------------
-![](https://github.com/DundeeRJam/Resources/blob/master/Images/Forever.png) ![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/Forever.png)      | This makes your code loop forever or until the red dot is clicked.
+## Making LEDS Blink Forever
+<img src = "Images/Blinking_LEDs_Forever.png" width = "300px" height = "350px" />
+
+<br><br>
+
+<table style = "width:100%">
+  <tr>
+    <th> Code Block </th>
+    <th> Meaning </th>
+  </tr>
+  <tr>
+    <td> <img src = "Images/Forever.png" width = "150px" height = "40px" /> </td>
+    <td> This makes your code loop forever or until the red dot is clicked. </td>
+ </tr>
+</table>
 
 Now save your code as Blinking_LEDs_Forever and run it as before.
 

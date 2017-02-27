@@ -1,9 +1,7 @@
-<link rel="stylesheet" type="text/css" href="C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/mystyle.css">
-
 # User Interaction
 
 ## Introduction
-Within this worksheet we are going to control the red, yellow or the green LEDs depending on the choice that the user makes. 
+Within this worksheet we are going to control the red, yellow or the green LEDs depending on the choice that the user makes.
 
 ## Equipment Required
 To complete this worksheet you will require:
@@ -21,8 +19,7 @@ Before you create the circuit make sure the Raspberry Pi is turned off.
 To create the circuit follow the diagram below:
 **NOTE** LEDs Have one longer leg called the anode which is always connected to the positive supply of the circuit. The shorter leg called the cathode is connected to the negative side of the power supply. The resistors go in between the short leg and ground rail on a breadboard.
 
-![](https://github.com/DundeeRJam/Resources/blob/master/Images/LEDs.png)
-![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/LEDs.png)
+<img src = "Images/LEDs.png" width = "420px" height = "300px" />
 
 Now plug the power supply in to turn the Raspberry pi on.
 
@@ -34,6 +31,8 @@ Within this worksheet you will get introduced to user input and variables which 
 Your Raspberry Pi should now be booted up. Go to Menu -> Programming and click on the IDLE3 Python editor. To create a new file, go to File -> New File. Now type the following code:
 
 **NOTE** Anything typed after a '#' is a comment in Python. Programmers use this to tell people reading the code (including themselves!) what is going on.
+
+<div class="page-break"></div>
 
 ```python
 from gpiozero import LED
@@ -66,7 +65,7 @@ if led_choice == 2:
     print ("You have picked the Yellow LED")
     LEDChoice = yellow
 
-# if we have chosen a valid choice, flash the LED 
+# if we have chosen a valid choice, flash the LED
 if LEDChoice>0:
     while count > 0:
     LEDChoice.on()
@@ -82,5 +81,7 @@ Once you have typed all of the code above, and checked to make sure it is right,
 You are now ready to run the code. You can do this by clicking on Run -> Run Module or by pressing F5 on your keyboard. You should now see your red LED blink.
 
 The screen will clear and you will be prompted for which LED you would like to turn on and off. Enter 1 or 2.
-You will then be prompted for how many times you want the LEDs to flash. The LED you chose will then flash the number of times you requested.
- 
+You will then be prompted for how many times you want the LEDs to blink. The LED you chose will then blink the number of times you requested.
+
+## Challenge
+In the code above we have made it so we can either pick the red or yellow LED to blink. Why not add a 3rd option and get the green LED to blink.

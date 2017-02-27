@@ -1,5 +1,3 @@
-<link rel="stylesheet" type="text/css" href="C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/mystyle.css">
-
 # Controlling LEDs
 
 ## Introduction
@@ -20,8 +18,7 @@ Before you create the circuit make sure the Raspberry Pi is turned off.
 To create the circuit follow the diagram below:
 **NOTE** LEDs Have one longer leg called the anode which is always connected to the positive supply of the circuit. The shorter leg called the cathode is connected to the negative side of the power supply. The resistors go in between the short leg and ground rail on a breadboard.
 
-![](https://github.com/DundeeRJam/Resources/blob/master/Images/LEDs.png)
-![](C:/Users/kez/Documents/GitHub/DundeeRJam/Resources/Images/LEDs.png)
+<img src = "Images/LEDs.png" width = "420px" height = "300px" />
 
 Now plug the power supply in to turn the Raspberry pi on.
 
@@ -42,6 +39,8 @@ green.on() # this is turning the green LED on
 ```
 
 Once you have typed all of the code above, and checked to make sure it is right, save the file and call it LED_on.py
+
+<div class="page-break"></div>
 
 ## Running The Code
 You are now ready to run the code. You can do this by clicking on Run -> Run Module or by pressing F5 on your keyboard. You should now see your LEDs light up.
