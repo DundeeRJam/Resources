@@ -78,7 +78,7 @@ if LEDChoice>0:
 Once you have typed all of the code above, and checked to make sure it is right, save the file and call it user_input.py
 
 ## Running The Code
-You are now ready to run the code. You can do this by clicking on Run -> Run Module or by pressing F5 on your keyboard. You should now see your red LED blink.
+You are now ready to run the code. You can do this by clicking on Run -> Run Module or by pressing F5 on your keyboard.
 
 The screen will clear and you will be prompted for which LED you would like to turn on and off. Enter 1 or 2.
 You will then be prompted for how many times you want the LEDs to blink. The LED you chose will then blink the number of times you requested.

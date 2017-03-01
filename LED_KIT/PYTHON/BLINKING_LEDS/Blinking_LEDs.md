@@ -6,7 +6,7 @@ Within this worksheet you will learn how to make LEDs blink using a Raspberry Pi
 ## Equipment We Will Be using
 To complete this worksheet you will require:
 * A Raspberry Pi with all cables
-* A Electronic Breadboard
+* An Electronic Breadboard
 * 1 x Red LED
 * 1 x Yellow LED
 * 1 x Green LED
