@@ -20,6 +20,7 @@ To create the circuit follow the diagram below:
 **NOTE** LEDs Have one longer leg called the anode which is always connected to the positive supply of the circuit. The shorter leg called the cathode is connected to the negative side of the power supply. The resistors go in between the short leg and ground rail on a breadboard.
 
 <img src = "Images/LEDs.png" width = "300px" height = "300px" />
+<img src = "Images/Pin_numbers.png" width = "300px" height = "100px" />
 
 Now plug the power supply in to turn the Raspberry pi on.
 
@@ -27,6 +28,7 @@ Now plug the power supply in to turn the Raspberry pi on.
 Your Raspberry Pi should now be booted up. Go to Menu -> Programming and click on the IDLE3 Python editor. To create a new file, go to File -> New File. Now type the following code:
 
 **NOTE** Anything typed after a '#' is a comment in Python. Programmers use this to tell people reading the code (including themselves!) what is going on.
+
 ```python
 from gpiozero import LED
 

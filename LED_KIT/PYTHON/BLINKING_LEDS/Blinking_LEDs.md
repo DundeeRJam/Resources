@@ -20,6 +20,7 @@ To create the circuit follow the diagram below:
 **NOTE** LEDs Have one longer leg called the anode which is always connected to the positive supply of the circuit. The shorter leg called the cathode is connected to the negative side of the power supply. The resistors go in between the short leg and ground rail on a breadboard.
 
 <img src = "Images/LEDs.png" width = "300px" height = "300px" />
+<img src = "Images/Pin_numbers.png" width = "300px" height = "100px" />
 
 Now plug the power supply in to turn the Raspberry pi on.
 
