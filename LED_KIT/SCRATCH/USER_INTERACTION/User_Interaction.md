@@ -19,6 +19,7 @@ To create the circuit follow the diagram below:
 **NOTE:** LEDs Have one longer leg called the anode which is always connected to the positive supply of the circuit. The shorter leg called the cathode is connected to the negative side of the power supply. The resistors go in between the short leg and ground rail on a breadboard.
 
 <img src = "Images/LEDs.png" width = "300px" height = "300px" />
+<img src = "Images/Pin_numbers.png" width = "300px" height = "100px" />
 
 Now plug the power supply in to turn the Raspberry pi on.
 
@@ -27,10 +28,37 @@ Before we write our code this time we need to develop an interface to pick which
 
 First thing we need to do is open Scratch. To do this Go to Menu -> Programming and click on Scratch.
 
-1. **Delete Felix (the Cat)**. To do this right click on <img src = "Images/Sprite1.png" width = "50px" height = "50px" /> and click on Delete.
-2. **Create a sprite for our question**. To do this click on the <img src = "Images/Paintbrush.png" width = "40px" height = "40" /> next to New Sprite. Then click on the <img src = "Images/Text.png" width = "
-40px" height = "40px" /> for creating text, type What LED would you like to blink?
-3. **Create a Red square**. To do this click on the <img src = "Images/Paintbrush.png" width = "40px" height = "40px" /> Icon again and click on the <img src = "Images/Rectangle.png" width = "40px" height = "40px" />. Now click on the <img src = "Images/Paint_Tin.png" width = "40px" height = "40px" />  icon and pick the colour red, then click in the rectangle to make it Red. You can also click on the <img src = "Images/Text.png" width = "40px" height = "40px" /> to add the text "Red" to your square too.
+1. **Delete Felix (the Cat)**. To do this right click on
+
+<img src = "Images/Sprite1.png" width = "50px" height = "50px" />
+
+and click on Delete.
+2. **Create a sprite for our question**. To do this click on the
+
+<img src = "Images/Paintbrush.png" width = "40px" height = "40" />
+
+next to New Sprite. Then click on the
+
+<img src = "Images/Text.png" width = "40px" height = "40px" />
+
+for creating text, type What LED would you like to blink?
+3. **Create a Red square**. To do this click on the
+
+<img src = "Images/Paintbrush.png" width = "40px" height = "40px" />
+
+Icon again and click on the
+
+<img src = "Images/Rectangle.png" width = "40px" height = "40px" />
+
+Now click on the
+
+<img src = "Images/Paint_Tin.png" width = "40px" height = "40px" />  
+
+icon and pick the colour red, then click in the rectangle to make it Red. You can also click on the
+
+<img src = "Images/Text.png" width = "40px" height = "40px" />
+
+to add the text "Red" to your square too.
 4. **Create a Yellow square**. Do this exactly the same as the Red square except fill it with a yellow colour.
 
 Your interface should look something like this:
@@ -71,12 +99,14 @@ To configure scratch to talk to the GPIO pins double click on the stage icon and
   </tr>
 </table>
 
+<div class="page-break"></div>
+
 ### Configuring The Red LED
 Double click on the Red sprite block and add this code:
 
-<img src = "Images/User_Interaction_Code2.png" width = "300px" height "350px" />
+<img src = "Images/User_Interaction_Code2.png" width = "300px" height = "350px" />
 
-### **What The Blocks Do**
+### What The Blocks Do
 
 <table style = "width:100%">
   <tr>
@@ -126,6 +156,8 @@ Once you have copied the code above and checked to make sure it is right. Save t
 
 ## Running The Code
 You are now ready to run the code. You can do this by clicking on the green flag. You should now see your chosen LED blink on and off for as many times as you asked it.
+
+<div class="page-break"></div>
 
 ## Challenge
 Now you have got the Red and Yellow LEDs working. Add a green block and code to make this work for the green LED.
