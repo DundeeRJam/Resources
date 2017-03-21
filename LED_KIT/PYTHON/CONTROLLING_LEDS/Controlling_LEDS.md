@@ -28,8 +28,7 @@ Now plug the power supply in to turn the Raspberry pi on.
 Your Raspberry Pi should now be booted up. Go to Menu -> Programming and click on the IDLE3 Python editor. To create a new file, go to File -> New File. Now type the following code:
 
 **NOTE** Anything typed after a '#' is a comment in Python. Programmers use this to tell people reading the code (including themselves!) what is going on.
-
-```python
+<pre><code>
 from gpiozero import LED
 
 red = LED(18) # this is saying the red LED is connected to pin 18 on the raspberry pi
@@ -39,7 +38,7 @@ green = LED(24) # this is saying the green LED is connected to pin 24 on the ras
 red.on() # this is turning the red LED on
 yellow.on() # this is turning the yellow LED on
 green.on() # this is turning the green LED on
-```
+</code> </pre>
 
 Once you have typed all of the code above, and checked to make sure it is right, save the file and call it LED_on.py
 
