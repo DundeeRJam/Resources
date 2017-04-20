@@ -114,6 +114,6 @@ Find the block you've just placed, and you should see lava flowing from the bloc
 
 The cool thing about lava is that when it cools down it becomes rock. Move to another location in your world and try this:
 
-<img src = "Images/Lava2.png" width = "400px" height = "200px" />
+<img src = "Images/Lava2.png" width = "400px" height = "400px" />
 
 You can adjust the **sleep** parameters to allow more or less lava to flow.
