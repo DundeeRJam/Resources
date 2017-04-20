@@ -80,7 +80,7 @@ Now you know how to drop blocks, lets use our moving location to drop blocks whe
 
 The following code will drop a flower behind you wherever you walk:
 
-<img src = "Images/DroppingFlowers.png" width = "400px" height = "200px" />
+<img src = "Images/DroppingFlowers.png" width = "400px" height = "400px" />
 
 Now walk forward for a while and turn around to see the flowers you have left behind you. **NOTE:** The number 38 is the block reference for flower.
 
