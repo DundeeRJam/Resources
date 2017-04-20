@@ -101,7 +101,7 @@ Now use your sword and left click the TNT block: it will be activated and will e
 
 Now try making a cube of TNT blocks. For example:
 
-<img src = "Images/TNT3.png" width = "1000px" height = "500px" />
+<img src = "Images/TNT3.png" width = "1000px" height = "400px" />
 
 Now you'll see a big cube of TNT blocks. Go ahead and activate one of the blocks and then run away to watch the show! It'll be really slow to render the graphics as so many things are changing at once.
 
