@@ -64,8 +64,6 @@ You are now ready to run the code. You can do this by clicking on Run -> Run Mod
 ## Challenge 1
 You have managed to make the red LED blink. Now try and make the yellow and green ones blink too. Save your code and run it like before.
 
-<div class="page-break"></div>
-
 ## Making LEDs Blink Forever
 ```python
 from gpiozero import LED
