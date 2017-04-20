@@ -53,7 +53,7 @@ Try changing the block to something else.
 ### Special Blocks
 There are some blocks which have extra properties, such as wool which has an extra setting where you can specify the colour. To set the colour use an optional fourth parameter in **setBlock**. For example:
 
-<img src = "Images/SpecialBlocks.png" width = "600px" height = "300px" />
+<img src = "Images/SpecialBlocks.png" width = "600px" height = "200px" />
 
 In this example the fourth parameter is **1** which sets the wool colour to orange. Without the fourth parameter it is set to the default **0** which is white. Some more colours are: <br>
 2: Magenta <br>
