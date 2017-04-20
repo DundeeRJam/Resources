@@ -69,7 +69,7 @@ Other blocks which have extra properties are wood(**17**): oak, spruce, birch, e
 ### Set Multiple Blocks
 As well as setting a single block with **setBlock** you can fill in a volume of space in one go with **setBlocks**. For example:
 
-<img src = "Images/MultipleBlocks.png" width = "800px" height = "400px" />
+<img src = "Images/MultipleBlocks.png" width = "800px" height = "200px" />
 
 This will fill in a 10 x 10 x 10 cube of solid stone.
 
